@@ -1,4 +1,4 @@
-package com.example.equipmanager
+package com.tokyo.equipmanager
 
 import org.junit.Test
 
