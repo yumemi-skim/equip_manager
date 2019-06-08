@@ -24,10 +24,9 @@ private val viewModelModule = module {
 }
 
 private val repositoryModule = module {
-
 }
 
-private inline fun <reified T> createApi(okHttpClient:OkHttpClient, moshi: Moshi):T{
+private inline fun <reified T> createApi(okHttpClient: OkHttpClient, moshi: Moshi): T {
     return Retrofit.Builder()
             .baseUrl(AppConst.MOCK_URL)
             .client(okHttpClient)
@@ -36,7 +35,6 @@ private inline fun <reified T> createApi(okHttpClient:OkHttpClient, moshi: Moshi
             .create(T::class.java)
 }
 
-
-object Module{
+object Module {
     val modules = listOf(appModule, viewModelModule, repositoryModule, apiModule)
 }
