@@ -1,4 +1,4 @@
-package com.tokyo.equipmanager.common.ext
+package com.example.equipmanager.common.ext
 
 import android.app.Activity
 import androidx.annotation.LayoutRes

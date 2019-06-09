@@ -1,4 +1,4 @@
-package com.tokyo.equipmanager.ui.main
+package com.example.equipmanager.ui.main
 
 import androidx.lifecycle.ViewModel
 

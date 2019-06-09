@@ -1,4 +1,4 @@
-package com.tokyo.equipmanager.ui
+package com.example.equipmanager.ui
 
 object AppConst {
     // FIXME: URL

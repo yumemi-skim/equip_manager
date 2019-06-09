@@ -1,10 +1,10 @@
-package com.tokyo.equipmanager.ui.main.adapter
+package com.example.equipmanager.ui.main.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.tokyo.equipmanager.databinding.EquipmentItemBinding
-import com.tokyo.equipmanager.ui.main.item.EquipData
+import com.example.equipmanager.databinding.EquipmentItemBinding
+import com.example.equipmanager.ui.main.item.EquipData
 
 class MainAdapter() : RecyclerView.Adapter<MainAdapter.BindingHolder>() {
 

@@ -1,9 +1,8 @@
-package com.tokyo.equipmanager.ui.main
+package com.example.equipmanager.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.tokyo.equipmanager.R
-import com.tokyo.equipmanager.common.ext.setContentWithBind
+import com.example.equipmanager.R
 
 class MainActivity : AppCompatActivity() {
 

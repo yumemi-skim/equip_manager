@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
-    package="com.tokyo.equipmanager"
+    package="com.example.equipmanager"
     xmlns:android="http://schemas.android.com/apk/res/android"
     >
 
     <application
-        android:name=".ui.MainApplication"
+        android:name="com.example.equipmanager.ui.MainApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -15,7 +15,7 @@
         android:theme="@style/AppTheme"
         >
         <activity
-            android:name="com.tokyo.equipmanager.ui.main.MainActivity"
+            android:name="com.example.equipmanager.ui.main.MainActivity"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             >

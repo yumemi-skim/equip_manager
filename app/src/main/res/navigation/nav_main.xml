@@ -9,7 +9,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.tokyo.equipmanager.ui.main.MainFragment"
+        android:name="com.example.equipmanager.ui.main.MainFragment"
         android:label="MainFragment"
         tools:layout="@layout/fragment_main"
         />

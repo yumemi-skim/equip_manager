@@ -1,9 +1,9 @@
-package com.tokyo.equipmanager.di
+package com.example.equipmanager.di
 
 import com.squareup.moshi.Moshi
 import com.squareup.moshi.kotlin.reflect.KotlinJsonAdapterFactory
-import com.tokyo.equipmanager.api.ApiService
-import com.tokyo.equipmanager.ui.AppConst
+import com.example.equipmanager.api.ApiService
+import com.example.equipmanager.ui.AppConst
 import okhttp3.OkHttpClient
 import org.koin.dsl.module.module
 import retrofit2.Retrofit

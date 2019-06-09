@@ -1,4 +1,4 @@
-package com.tokyo.equipmanager.ui.main
+package com.example.equipmanager.ui.main
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,9 +8,9 @@ import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.tokyo.equipmanager.R
-import com.tokyo.equipmanager.databinding.FragmentMainBinding
-import com.tokyo.equipmanager.ui.main.adapter.MainAdapter
+import com.example.equipmanager.R
+import com.example.equipmanager.databinding.FragmentMainBinding
+import com.example.equipmanager.ui.main.adapter.MainAdapter
 
 class MainFragment : Fragment() {
     private lateinit var viewModel: MainViewModel
