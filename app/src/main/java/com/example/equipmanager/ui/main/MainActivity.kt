@@ -1,7 +1,8 @@
-package com.example.equipmanager
+package com.example.equipmanager.ui.main
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.equipmanager.R
 
 class MainActivity : AppCompatActivity() {
 
